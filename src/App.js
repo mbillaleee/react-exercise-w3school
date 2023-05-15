@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Components/Car';
 
 function App() {
+  const x = 11;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Car/>
+      const myElement = <h1>{(x) < 10 ? "Hello" : "Goodbye"}</h1>;
     </div>
   );
 }
